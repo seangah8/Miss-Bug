@@ -1,0 +1,71 @@
+[
+    {
+        "title": "Bug1",
+        "severity": 1,
+        "description": "this is bug 1",
+        "labels": [
+            "critical",
+            "need-CR",
+            "dev-branch"
+        ],
+        "_id": "PdJZ0I",
+        "createdAt": 1739070142712
+    },
+    {
+        "title": "Bug2",
+        "severity": 2,
+        "description": "this is bug 2",
+        "labels": [
+            "critical",
+            "need-CR",
+            "dev-branch"
+        ],
+        "_id": "JU8WEh",
+        "createdAt": 1739071541989
+    },
+    {
+        "_id": "DN8BhC",
+        "title": "Bug3",
+        "severity": 1,
+        "description": "this is bug 3",
+        "labels": [
+            "critical",
+            "need-CR",
+            "dev-branch"
+        ],
+        "createdAt": 1739071547428
+    },
+    {
+        "title": "Bug0",
+        "severity": 0,
+        "description": "this is bug 0",
+        "labels": [
+            "critical",
+            "need-CR",
+            "dev-branch"
+        ],
+        "_id": "zq1KHC",
+        "createdAt": 1739071578626
+    },
+    {
+        "title": "Test",
+        "severity": 3,
+        "description": "this is a test bug",
+        "labels": [
+            "critical",
+            "need-CR"
+        ],
+        "_id": "fpNURQ",
+        "createdAt": 1739126205256
+    },
+    {
+        "title": "Bugi Bug",
+        "severity": 3,
+        "description": "bug that about to DIE",
+        "labels": [
+            "need-CR"
+        ],
+        "_id": "3Ck7CX",
+        "createdAt": 1739281311691
+    }
+]

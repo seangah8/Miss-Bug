@@ -1,0 +1,25 @@
+[
+    {
+        "_id": "B4P2U8",
+        "fullname": "Sean",
+        "username": "dsfsf",
+        "password": "sdf",
+        "score": "555"
+    },
+    {
+        "fullname": "New User",
+        "username": "UserName",
+        "password": "1234",
+        "_id": "HTJy6R",
+        "score": 0,
+        "createdAt": 1739227572403
+    },
+    {
+        "fullname": "fff",
+        "username": "uuu",
+        "password": "111",
+        "_id": "3WzkbZ",
+        "score": 0,
+        "createdAt": 1739285101715
+    }
+]

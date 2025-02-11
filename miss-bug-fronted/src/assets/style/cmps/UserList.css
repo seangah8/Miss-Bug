@@ -1,0 +1,19 @@
+.user-list{
+    margin-left: 5vw;
+    width: 90vw;
+}
+
+.user-list table{
+    width: 100%;
+}
+
+.user-list th{
+    border: solid black 1px;
+}
+
+.user-list td{
+    border: solid black 1px;
+}
+
+
+
