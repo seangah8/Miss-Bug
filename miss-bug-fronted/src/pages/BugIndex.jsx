@@ -4,6 +4,7 @@ import { BugList } from '../cmps/BugList.jsx'
 import { useState } from 'react'
 import { useEffect } from 'react'
 import { FilterBugs } from '../cmps/FilterBugs.jsx'
+import { userService } from '../services/user/user.service.js'
 
 
 export function BugIndex() {
@@ -12,7 +13,9 @@ export function BugIndex() {
     minSeverity: 0, 
     label: 'All', 
     sortBy: 'createdAt',
-    pageIdx: 0})
+    pageIdx: 0,
+    creatorId: null
+  })
 
   useEffect(() => {
     loadBugs()
@@ -88,6 +91,7 @@ export function BugIndex() {
         currBug._id === savedBug._id ? savedBug : currBug
       ))
       showSuccessMsg('Bug updated')
+      loadBugs()
     } catch (err) {
       console.log('Error from onEditBug ->', err)
       showErrorMsg('Cannot update bug')
@@ -99,7 +103,7 @@ export function BugIndex() {
       <h3>Bugs App</h3>
       <main>
         <FilterBugs filterBy={filterBy} onSetFilterBy={onSetFilterBy}/>
-        <button onClick={onAddBug}>Add Bug ⛐</button>
+        {userService.getLoggedinUser() && <button onClick={onAddBug}>Add Bug ⛐</button>}
         <BugList bugs={bugs} onRemoveBug={onRemoveBug} onEditBug={onEditBug} />
         <section className='page-picker'>
           <button disabled={filterBy.pageIdx <= 0}

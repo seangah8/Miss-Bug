@@ -1,18 +1,22 @@
 import { loggerService } from "../../services/logger.service.js"
 import { bugService } from "./bug.service.js"
+import { authService } from "../auth/auth.service.js"
 
 
 export async function getBugs(req, res) {
 
 
-    const { title, minSeverity, label, sortBy, pageIdx } = req.query
+    const { title, minSeverity, label, sortBy, pageIdx, creatorId } = req.query
     const filterBy = {
         title,
         minSeverity: +minSeverity,
         label,
         sortBy,
         pageIdx: +pageIdx,
+        creatorId,
     }
+
+
 
     try {
         const bugs = await bugService.query(filterBy)
@@ -59,7 +63,7 @@ export async function addBug(req, res) {
     const bugToSave = { title, severity: +severity, description, labels}
 
     try {
-        const savedBug = await bugService.save(bugToSave)
+        const savedBug = await bugService.save(bugToSave, req.loggedinUser)
     	res.send(savedBug)
     } catch (err) {
         loggerService.error(err.message)
@@ -68,11 +72,11 @@ export async function addBug(req, res) {
 }
 
 export async function updateBug(req, res) {
-    const {_id, title, severity, description, labels } = req.body
-    const bugToSave = {_id, title, severity: +severity, description, labels}
+    const {_id, title, severity, description } = req.body
+    const bugToSave = {_id, title, severity: +severity, description}
 
     try {
-        const savedBug = await bugService.save(bugToSave)
+        const savedBug = await bugService.save(bugToSave, req.loggedinUser)
     	res.send(savedBug)
     } catch (err) {
         loggerService.error(err.message)
@@ -83,7 +87,7 @@ export async function updateBug(req, res) {
 export async function removeBug(req, res) {
     const { bugId } = req.params
     try {
-        await bugService.remove(bugId)
+        await bugService.remove(bugId, req.loggedinUser)
         res.send('Bug Deleted')
     } catch (err) {
         loggerService.error(err.message)

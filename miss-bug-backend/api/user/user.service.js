@@ -6,6 +6,7 @@ export const userService = {
     getUser,
     remove,
     save,
+    getByUsername,
 }
 
 const users = readJsonFile('./data/users.json')
@@ -31,8 +32,20 @@ async function getUser(userId){
     }
 }
 
+async function getByUsername(username) {
+    try {
+        const user = users.find(user => user.username === username)
+        return user
+    } catch (err) {
+        loggerService.error('userService[getByUsername] : ', err)
+        throw err
+    }
+}
+
 async function remove(userId){
     try{
+        if(users.find(user=>user._id===userId).isAdmin)
+            throw 'Cant remove admin'
         const idx = users.findIndex(user=>user._id===userId)
         if(idx === -1) throw `Bad user id ${userId}`
         users.splice(idx,1)
@@ -50,11 +63,12 @@ async function save(userToSave) {
         if (userToSave._id) {
             const idx = users.findIndex(user => user._id === userToSave._id)
             if (idx === -1) throw `Bad user id ${userToSave._id}`
-            users.splice(idx, 1, userToSave)
+            users[idx] = {...users[idx], ...userToSave}
         } else {
             userToSave._id = makeId()
             userToSave.score = 0
             userToSave.createdAt = Date.now()
+            userToSave.isAdmin = false
             users.push(userToSave)
         }
         await writeJsonFile('./data/users.json', users)
@@ -64,3 +78,5 @@ async function save(userToSave) {
         throw err
     }
 }
+
+

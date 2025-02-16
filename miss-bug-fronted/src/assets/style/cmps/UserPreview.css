@@ -4,3 +4,11 @@
     vertical-align: center;
 
 }
+
+.user-preview-admin td{
+    text-align: center;
+    vertical-align: center;
+
+    background-color: rgb(195, 229, 255);
+
+}

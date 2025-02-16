@@ -1,5 +1,6 @@
 import { loggerService } from "../../services/logger.service.js"
 import { userService } from "./user.service.js"
+import { authService } from "../auth/auth.service.js"
 
 
 export async function getUsers(req, res) {
@@ -30,7 +31,7 @@ export async function addUser(req, res) {
     const userToSave = { fullname, username, password }
 
     try {
-        const savedUser = await userService.save(userToSave)
+        const savedUser = await authService.signup(userToSave)
         res.send(savedUser)
     } catch (err) {
         loggerService.error(err.message)
@@ -40,8 +41,8 @@ export async function addUser(req, res) {
 
 export async function updateUser(req, res) {
     console.log(req.body)
-    const { _id, fullname, username, password, score } = req.body
-    const userToSave = { _id, fullname, username, password, score }
+    const { _id, fullname, username, score } = req.body
+    const userToSave = { _id, fullname, username, score }
 
     try {
         const savedUser = await userService.save(userToSave)

@@ -63,10 +63,18 @@ async function query(filter){
         bugsToDisplay = bugsToDisplay.slice(startIdx, startIdx + PAGE_SIZE)
     }
 
+
+
+    // Profile filter
+    if(filter.creatorId){
+        bugsToDisplay = bugsToDisplay.filter(bug=> 
+            bug.creator._id === filter.creatorId)
+    }
+
     try{
         return bugsToDisplay
     } catch(err){
-        loggerService.error(`Couldn't get bugs`)
+        loggerService.error(`Couldn't get bugs ${bugToSave._id || bugToSave.title} Because: ${err}`)
         throw err
     }
 }
@@ -77,41 +85,51 @@ async function getBug(bugId){
         if(!bug) throw `Bad bug id ${bugId}`
         return bug
     } catch(err){
-        loggerService.error(`Couldn't get bug ${bugId}`)
+        loggerService.error(`Couldn't get bug ${bugToSave._id || bugToSave.title} Because: ${err}`)
         throw err
     }
 }
 
-async function remove(bugId){
+async function remove(bugId, loggedinUser){
     try{
+
         const idx = bugs.findIndex(bug=>bug._id===bugId)
         if(idx === -1) throw `Bad bug id ${bugId}`
+
+        if (!loggedinUser.isAdmin && bugs[idx]?.creator?._id !== loggedinUser._id) 
+            throw 'Only creator can remove bug'
         bugs.splice(idx,1)
 
         await writeJsonFile('./data/bugs.json', bugs)
         return
     } catch(err){
-        loggerService.error(`Couldn't remove bug ${bugId}`)
+        loggerService.error(`Couldn't remove bug ${bugToSave._id || bugToSave.title} Because: ${err}`)
         throw err
     }
 }
 
-async function save(bugToSave) { 
+async function save(bugToSave, loggedinUser) { 
     try {
+        
         if (bugToSave._id) {
             const idx = bugs.findIndex(bug => bug._id === bugToSave._id)
             if (idx === -1) throw `Bad bug id ${bugToSave._id}`
-            bugs.splice(idx, 1, bugToSave)
-        } else {
-            console.log(bugToSave)
+            if (!loggedinUser.isAdmin && bugs[idx]?.creator?._id !== loggedinUser._id) 
+                throw 'Only creator can update bug'
+            bugs[idx] = { ...bugs[idx], ...bugToSave }
+        } 
+
+        else {
             bugToSave._id = makeId()
             bugToSave.createdAt = Date.now()
+            bugToSave.creator = {_id: loggedinUser._id, fullname: loggedinUser.fullname}
             bugs.push(bugToSave)
         }
+
         await writeJsonFile('./data/bugs.json', bugs)
         return bugToSave
     } catch (err) {
-        loggerService.error(`Couldn't save bug ${bugToSave._id || bugToSave.title}`)
+        loggerService.error(`Couldn't save bug ${bugToSave._id || bugToSave.title} Because: ${err}`)
         throw err
     }
 }

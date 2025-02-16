@@ -4,6 +4,7 @@ import { loggerService } from './services/logger.service.js'
 
 import { bugRoutes } from './api/bug/bug.routs.js'
 import { userRoutes } from './api/user/user.routs.js'
+import { authRoutes } from './api/auth/auth.routs.js'
 
 import cookieParser from 'cookie-parser'
 
@@ -27,6 +28,7 @@ app.use(cookieParser())
 //* Routes
 app.use('/api/bug', bugRoutes)
 app.use('/api/user', userRoutes)
+app.use('/api/auth', authRoutes)
 
 
 

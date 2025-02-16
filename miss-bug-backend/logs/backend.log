@@ -255,3 +255,456 @@
 11.2.2025, 19:24:48 - INFO - app listening on port 3000
 11.2.2025, 19:25:15 - INFO - User Ask For Bug After Limit
 11.2.2025, 19:28:17 - INFO - User Ask For Bug After Limit
+15.2.2025, 15:03:34 - INFO - app listening on port 3000
+15.2.2025, 15:05:02 - INFO - app listening on port 3000
+15.2.2025, 15:05:25 - INFO - app listening on port 3000
+15.2.2025, 15:05:55 - INFO - app listening on port 3000
+15.2.2025, 15:07:04 - INFO - app listening on port 3000
+15.2.2025, 15:07:37 - INFO - app listening on port 3000
+15.2.2025, 15:08:18 - INFO - app listening on port 3000
+15.2.2025, 15:08:56 - INFO - app listening on port 3000
+15.2.2025, 15:09:55 - INFO - app listening on port 3000
+15.2.2025, 15:47:30 - INFO - app listening on port 3000
+15.2.2025, 15:47:33 - ERROR - Failed to Login NaN
+15.2.2025, 15:48:09 - ERROR - Failed to Login NaN
+15.2.2025, 15:48:15 - INFO - app listening on port 3000
+15.2.2025, 15:48:17 - INFO - app listening on port 3000
+15.2.2025, 15:48:20 - ERROR - Failed to Login NaN
+15.2.2025, 15:50:03 - ERROR - Failed to Login NaN
+15.2.2025, 15:50:49 - ERROR - Failed to Login NaN
+15.2.2025, 15:51:19 - INFO - app listening on port 3000
+15.2.2025, 15:51:20 - ERROR - Failed to Login TypeError: userService.getByUsername is not a function
+15.2.2025, 15:52:46 - INFO - app listening on port 3000
+15.2.2025, 15:52:50 - INFO - app listening on port 3000
+15.2.2025, 15:53:20 - ERROR - Failed to Login Unknown username
+15.2.2025, 15:55:48 - DEBUG - auth.service - signup with username: seangah8, fullname: undefined
+15.2.2025, 15:55:48 - ERROR - Failed to signup Missing required signup information
+15.2.2025, 15:56:23 - INFO - app listening on port 3000
+15.2.2025, 15:56:27 - DEBUG - auth.service - signup with username: seangah8, fullname: undefined
+15.2.2025, 15:56:27 - ERROR - Failed to signup Missing required signup information
+15.2.2025, 15:56:52 - DEBUG - auth.service - signup with username: seangah8, fullname: Sean Gah
+15.2.2025, 15:56:52 - DEBUG - auth.route - new account created: {"username":"seangah8","password":"$2b$10$3ObSt0hOMWIhlKNlxCY1v.cflt8KgQ0JEAiAizqI.nZl1n.y.Aibi","fullname":"Sean Gah","_id":"RVBmWa","score":0,"createdAt":1739627812439}
+15.2.2025, 15:56:52 - INFO - User signup: | {"_id":"RVBmWa","fullname":"Sean Gah","score":0}
+15.2.2025, 15:57:08 - INFO - app listening on port 3000
+15.2.2025, 15:57:42 - INFO - app listening on port 3000
+15.2.2025, 16:02:10 - INFO - app listening on port 3000
+15.2.2025, 16:02:22 - INFO - app listening on port 3000
+15.2.2025, 16:02:59 - DEBUG - auth.service - signup with username: danielngah2, fullname: Daniel Gah
+15.2.2025, 16:02:59 - DEBUG - auth.route - new account created: {"username":"danielngah2","password":"$2b$10$S6B.hDax6Vebi8l.x3UcIuwH1O.0CKKfgMUyyazqBeDXETBRJ0pDa","fullname":"Daniel Gah","_id":"B49PnI","score":0,"createdAt":1739628179373}
+15.2.2025, 16:02:59 - INFO - User signup: | {"_id":"B49PnI","fullname":"Daniel Gah","score":0}
+15.2.2025, 16:03:47 - INFO - User login:  | {"_id":"RVBmWa","fullname":"Sean Gah","score":0}
+15.2.2025, 16:04:52 - ERROR - Failed to Login Unknown username
+15.2.2025, 16:05:22 - ERROR - Failed to Login Unknown username
+15.2.2025, 16:05:24 - ERROR - Failed to Login Unknown username
+15.2.2025, 16:05:26 - ERROR - Failed to Login Unknown username
+15.2.2025, 16:05:27 - ERROR - Failed to Login Unknown username
+15.2.2025, 16:05:27 - ERROR - Failed to Login Unknown username
+15.2.2025, 16:05:28 - ERROR - Failed to Login Unknown username
+15.2.2025, 16:05:29 - ERROR - Failed to Login Unknown username
+15.2.2025, 16:05:37 - ERROR - Failed to Login Unknown username
+15.2.2025, 16:05:46 - INFO - User login:  | {"_id":"B49PnI","fullname":"Daniel Gah","score":0}
+15.2.2025, 16:06:17 - INFO - User login:  | {"_id":"RVBmWa","fullname":"Sean Gah","score":0}
+15.2.2025, 16:08:53 - DEBUG - auth.service - signup with username: u1, fullname: f1
+15.2.2025, 16:08:53 - DEBUG - auth.route - new account created: {"username":"u1","password":"$2b$10$EC3wIGzFdkLYq/OxbbTaCeVuq6F8ois2jYieZNlmF8tvaSSJMHVxy","fullname":"f1","_id":"iH08FS","score":0,"createdAt":1739628533608}
+15.2.2025, 16:08:53 - INFO - User signup: | {"_id":"iH08FS","fullname":"f1","score":0}
+15.2.2025, 16:09:00 - DEBUG - auth.service - signup with username: u2, fullname: f2
+15.2.2025, 16:09:00 - DEBUG - auth.route - new account created: {"username":"u2","password":"$2b$10$uEDCFfKFscUBFxKFtkhdwex6RmW0pYdon7kiA8YbM4/uF4DmqQvjS","fullname":"f2","_id":"fk88GX","score":0,"createdAt":1739628540053}
+15.2.2025, 16:09:00 - INFO - User signup: | {"_id":"fk88GX","fullname":"f2","score":0}
+15.2.2025, 16:09:04 - DEBUG - auth.service - signup with username: u3, fullname: f3
+15.2.2025, 16:09:04 - DEBUG - auth.route - new account created: {"username":"u3","password":"$2b$10$TsASH4CDdYQ6.S1V8oqgw.jsgBa/kKapb4Q86VjaL.8kOowApC6qy","fullname":"f3","_id":"FzwIm7","score":0,"createdAt":1739628544357}
+15.2.2025, 16:09:04 - INFO - User signup: | {"_id":"FzwIm7","fullname":"f3","score":0}
+15.2.2025, 16:09:22 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+15.2.2025, 16:09:33 - ERROR - Failed to Login Invalid username or password
+15.2.2025, 16:09:48 - ERROR - Failed to Login Unknown username
+15.2.2025, 19:04:40 - INFO - app listening on port 3000
+15.2.2025, 19:09:44 - INFO - app listening on port 3000
+15.2.2025, 19:26:33 - INFO - app listening on port 3000
+15.2.2025, 19:27:06 - INFO - app listening on port 3000
+15.2.2025, 19:28:06 - INFO - app listening on port 3000
+15.2.2025, 19:29:54 - INFO - app listening on port 3000
+15.2.2025, 19:30:08 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+15.2.2025, 19:31:15 - ERROR - Couldn't save bug H76gmt
+15.2.2025, 19:31:15 - ERROR - req is not defined
+15.2.2025, 19:32:14 - INFO - app listening on port 3000
+15.2.2025, 19:32:43 - INFO - app listening on port 3000
+15.2.2025, 19:32:49 - INFO - app listening on port 3000
+15.2.2025, 19:32:56 - INFO - app listening on port 3000
+15.2.2025, 19:33:29 - INFO - app listening on port 3000
+15.2.2025, 19:33:52 - INFO - app listening on port 3000
+15.2.2025, 19:33:55 - INFO - app listening on port 3000
+15.2.2025, 19:35:16 - INFO - app listening on port 3000
+15.2.2025, 19:35:31 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+15.2.2025, 19:36:37 - INFO - app listening on port 3000
+15.2.2025, 19:37:07 - INFO - app listening on port 3000
+15.2.2025, 19:37:26 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+15.2.2025, 19:37:56 - INFO - User login:  | {"_id":"fk88GX","fullname":"f2","score":0}
+15.2.2025, 19:47:41 - INFO - app listening on port 3000
+15.2.2025, 19:47:46 - INFO - app listening on port 3000
+15.2.2025, 19:48:02 - INFO - app listening on port 3000
+15.2.2025, 19:48:28 - INFO - app listening on port 3000
+15.2.2025, 19:48:32 - INFO - app listening on port 3000
+15.2.2025, 19:48:51 - INFO - app listening on port 3000
+15.2.2025, 19:52:02 - INFO - app listening on port 3000
+15.2.2025, 19:52:11 - INFO - User login:  | {"_id":"fk88GX","fullname":"f2","score":0}
+15.2.2025, 19:52:38 - INFO - User login:  | {"_id":"fk88GX","fullname":"f2","score":0}
+15.2.2025, 19:53:10 - ERROR - Couldn't remove bug cdafq2
+15.2.2025, 19:53:10 - ERROR - 
+15.2.2025, 19:53:59 - ERROR - Couldn't save bug cdafq2
+15.2.2025, 19:53:59 - ERROR - 
+15.2.2025, 19:54:34 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+15.2.2025, 19:54:55 - ERROR - Couldn't save bug cdafq2
+15.2.2025, 19:54:55 - ERROR - 
+15.2.2025, 19:55:03 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+15.2.2025, 19:55:07 - ERROR - Couldn't save bug cdafq2
+15.2.2025, 19:55:07 - ERROR - 
+15.2.2025, 19:55:51 - INFO - app listening on port 3000
+15.2.2025, 20:17:56 - INFO - app listening on port 3000
+15.2.2025, 20:18:03 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+15.2.2025, 20:18:45 - ERROR - Couldn't save bug cdafq2
+15.2.2025, 20:18:45 - ERROR - 
+15.2.2025, 20:19:07 - INFO - app listening on port 3000
+15.2.2025, 20:19:08 - ERROR - Couldn't save bug cdafq2
+15.2.2025, 20:19:08 - ERROR - 
+15.2.2025, 20:19:21 - INFO - app listening on port 3000
+15.2.2025, 20:19:23 - ERROR - Couldn't save bug cdafq2
+15.2.2025, 20:19:23 - ERROR - 
+15.2.2025, 20:20:36 - INFO - app listening on port 3000
+15.2.2025, 20:20:37 - ERROR - Couldn't save bug cdafq2
+15.2.2025, 20:20:37 - ERROR - 
+15.2.2025, 20:22:37 - INFO - app listening on port 3000
+15.2.2025, 20:22:50 - INFO - app listening on port 3000
+15.2.2025, 20:23:09 - INFO - User login:  | {"_id":"fk88GX","fullname":"f2","score":0}
+15.2.2025, 20:23:13 - ERROR - Couldn't save bug cdafq2
+15.2.2025, 20:23:13 - ERROR - 
+15.2.2025, 20:23:56 - INFO - app listening on port 3000
+15.2.2025, 20:24:38 - ERROR - Couldn't save bug cdafq2
+15.2.2025, 20:24:38 - ERROR - 
+15.2.2025, 20:26:46 - INFO - app listening on port 3000
+15.2.2025, 20:26:52 - INFO - app listening on port 3000
+15.2.2025, 20:28:34 - INFO - app listening on port 3000
+15.2.2025, 20:28:40 - INFO - app listening on port 3000
+15.2.2025, 20:29:17 - INFO - app listening on port 3000
+15.2.2025, 20:29:23 - INFO - app listening on port 3000
+15.2.2025, 20:29:27 - INFO - app listening on port 3000
+15.2.2025, 20:31:04 - INFO - app listening on port 3000
+15.2.2025, 20:34:52 - INFO - app listening on port 3000
+15.2.2025, 20:35:10 - INFO - app listening on port 3000
+15.2.2025, 20:35:30 - ERROR - Couldn't remove bug cdafq2
+15.2.2025, 20:35:30 - ERROR - 
+15.2.2025, 20:35:48 - ERROR - Couldn't remove bug cdafq2
+15.2.2025, 20:35:48 - ERROR - 
+15.2.2025, 20:37:17 - INFO - app listening on port 3000
+15.2.2025, 20:37:23 - INFO - app listening on port 3000
+15.2.2025, 20:37:39 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+15.2.2025, 20:38:21 - ERROR - Couldn't save bug fk88GX
+15.2.2025, 20:38:21 - ERROR - 
+15.2.2025, 20:39:29 - INFO - app listening on port 3000
+15.2.2025, 20:39:32 - ERROR - Couldn't save bug fk88GX
+15.2.2025, 20:39:32 - ERROR - 
+15.2.2025, 20:40:00 - INFO - app listening on port 3000
+15.2.2025, 20:40:10 - INFO - app listening on port 3000
+15.2.2025, 20:40:13 - ERROR - Couldn't save bug fk88GX
+15.2.2025, 20:40:13 - ERROR - 
+15.2.2025, 20:40:26 - INFO - app listening on port 3000
+15.2.2025, 20:40:35 - INFO - app listening on port 3000
+15.2.2025, 20:40:43 - ERROR - Couldn't save bug fk88GX
+15.2.2025, 20:40:43 - ERROR - 
+15.2.2025, 20:41:02 - INFO - app listening on port 3000
+15.2.2025, 20:41:04 - ERROR - Couldn't save bug fk88GX
+15.2.2025, 20:41:04 - ERROR - 
+15.2.2025, 20:41:28 - INFO - app listening on port 3000
+15.2.2025, 20:41:39 - ERROR - Couldn't save bug gy0RuS
+15.2.2025, 20:41:39 - ERROR - 
+15.2.2025, 20:42:23 - INFO - app listening on port 3000
+15.2.2025, 20:42:25 - ERROR - Couldn't save bug gy0RuS
+15.2.2025, 20:42:25 - ERROR - 
+15.2.2025, 20:43:05 - INFO - app listening on port 3000
+15.2.2025, 20:43:07 - ERROR - Couldn't save bug gy0RuS Because: Only creator can update bug
+15.2.2025, 20:43:07 - ERROR - 
+15.2.2025, 20:43:25 - INFO - User login:  | {"_id":"fk88GX","fullname":"f2","score":0}
+15.2.2025, 20:43:42 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+15.2.2025, 20:43:52 - ERROR - Couldn't remove bug gy0RuS
+15.2.2025, 20:43:52 - ERROR - 
+15.2.2025, 20:44:01 - INFO - User login:  | {"_id":"fk88GX","fullname":"f2","score":0}
+15.2.2025, 20:44:33 - INFO - app listening on port 3000
+15.2.2025, 20:45:12 - INFO - app listening on port 3000
+15.2.2025, 21:42:00 - ERROR - Couldn't save bug g3xi92 Because: TypeError: Cannot read properties of null (reading '_id')
+15.2.2025, 21:42:00 - ERROR - Cannot read properties of null (reading '_id')
+15.2.2025, 22:02:49 - ERROR - Failed to Login Invalid username or password
+15.2.2025, 23:50:47 - INFO - app listening on port 3000
+15.2.2025, 23:51:10 - ERROR - Failed to Login Invalid username or password
+16.2.2025, 1:09:04 - ERROR - Failed to Login Invalid username or password
+16.2.2025, 1:18:38 - ERROR - Failed to Login Invalid username or password
+16.2.2025, 1:20:14 - INFO - app listening on port 3000
+16.2.2025, 1:20:14 - ERROR - Failed to Login Invalid username or password
+16.2.2025, 1:20:14 - ERROR - Failed to Login Invalid username or password
+16.2.2025, 1:23:27 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+16.2.2025, 1:24:19 - ERROR - Failed to Login Invalid username or password
+16.2.2025, 1:25:01 - INFO - User login:  | {"_id":"fk88GX","fullname":"f2","score":0}
+16.2.2025, 1:25:12 - ERROR - Failed to Login Invalid username or password
+16.2.2025, 1:25:14 - ERROR - Failed to Login Invalid username or password
+16.2.2025, 1:25:15 - ERROR - Failed to Login Invalid username or password
+16.2.2025, 1:25:20 - INFO - User login:  | {"_id":"FzwIm7","fullname":"f3","score":0}
+16.2.2025, 1:25:30 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+16.2.2025, 1:25:36 - INFO - User login:  | {"_id":"fk88GX","fullname":"f2","score":0}
+16.2.2025, 1:25:43 - INFO - User login:  | {"_id":"FzwIm7","fullname":"f3","score":0}
+16.2.2025, 1:26:04 - INFO - app listening on port 3000
+16.2.2025, 1:26:20 - DEBUG - auth.service - signup with username: u4, fullname: f4
+16.2.2025, 1:26:20 - DEBUG - auth.route - new account created: {"username":"u4","password":"$2b$10$RQnkHZ5eRHrfs3NrRPSGDuYmyiTGwos7abGdXk7CLvNC3UKA7w3u.","fullname":"f4","_id":"tQIMhH","score":0,"createdAt":1739661980439}
+16.2.2025, 1:26:20 - INFO - User signup: | {"_id":"tQIMhH","fullname":"f4","score":0}
+16.2.2025, 1:27:50 - DEBUG - auth.service - signup with username: u5, fullname: f5
+16.2.2025, 1:27:50 - DEBUG - auth.route - new account created: {"username":"u5","password":"$2b$10$iHp.kaSpnXgUFUTGzFIc9eKN9thc.6G9GPmtwpt3lba/ChmcyCP/2","fullname":"f5","_id":"U8yQzo","score":0,"createdAt":1739662070678}
+16.2.2025, 1:27:50 - INFO - User signup: | {"_id":"U8yQzo","fullname":"f5","score":0}
+16.2.2025, 1:28:19 - DEBUG - auth.service - signup with username: u1, fullname: f6
+16.2.2025, 1:28:19 - ERROR - Failed to signup Username already taken
+16.2.2025, 1:36:49 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+16.2.2025, 1:37:37 - ERROR - Couldn't save bug 6b9YwR Because: TypeError: Cannot read properties of null (reading '_id')
+16.2.2025, 1:37:37 - ERROR - Cannot read properties of null (reading '_id')
+16.2.2025, 1:38:05 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+16.2.2025, 1:38:57 - ERROR - bugToSave is not defined
+16.2.2025, 1:39:29 - INFO - User login:  | {"_id":"fk88GX","fullname":"f2","score":0}
+16.2.2025, 1:39:31 - ERROR - bugToSave is not defined
+16.2.2025, 1:39:36 - ERROR - Couldn't save bug 9V1SPl Because: Only creator can update bug
+16.2.2025, 1:39:36 - ERROR - 
+16.2.2025, 1:39:46 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+16.2.2025, 2:00:39 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+16.2.2025, 2:08:13 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+16.2.2025, 2:16:44 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+16.2.2025, 2:17:25 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+16.2.2025, 2:29:07 - INFO - app listening on port 3000
+16.2.2025, 2:34:25 - INFO - app listening on port 3000
+16.2.2025, 2:35:15 - INFO - app listening on port 3000
+16.2.2025, 2:35:56 - INFO - app listening on port 3000
+16.2.2025, 2:38:45 - ERROR - creatorId is not defined
+16.2.2025, 2:39:27 - ERROR - creatorId is not defined
+16.2.2025, 2:39:35 - ERROR - creatorId is not defined
+16.2.2025, 2:39:37 - ERROR - creatorId is not defined
+16.2.2025, 2:39:46 - ERROR - creatorId is not defined
+16.2.2025, 2:39:48 - ERROR - creatorId is not defined
+16.2.2025, 2:40:28 - INFO - app listening on port 3000
+16.2.2025, 2:40:48 - INFO - app listening on port 3000
+16.2.2025, 2:41:41 - INFO - app listening on port 3000
+16.2.2025, 2:41:43 - ERROR - creatorId is not defined
+16.2.2025, 2:41:56 - INFO - app listening on port 3000
+16.2.2025, 2:41:59 - ERROR - creatorId is not defined
+16.2.2025, 2:42:33 - INFO - app listening on port 3000
+16.2.2025, 2:42:35 - ERROR - creatorId is not defined
+16.2.2025, 2:42:42 - INFO - app listening on port 3000
+16.2.2025, 2:43:06 - INFO - app listening on port 3000
+16.2.2025, 2:43:08 - ERROR - creatorId is not defined
+16.2.2025, 2:43:16 - INFO - app listening on port 3000
+16.2.2025, 2:43:41 - INFO - app listening on port 3000
+16.2.2025, 2:43:55 - ERROR - Cannot read properties of undefined (reading '_id')
+16.2.2025, 2:45:13 - ERROR - Cannot read properties of undefined (reading '_id')
+16.2.2025, 2:45:15 - ERROR - Cannot read properties of undefined (reading '_id')
+16.2.2025, 2:45:53 - INFO - app listening on port 3000
+16.2.2025, 2:45:55 - ERROR - Cannot read properties of undefined (reading '_id')
+16.2.2025, 2:46:05 - INFO - app listening on port 3000
+16.2.2025, 2:46:06 - ERROR - Cannot read properties of undefined (reading '_id')
+16.2.2025, 2:46:15 - INFO - app listening on port 3000
+16.2.2025, 2:46:32 - INFO - app listening on port 3000
+16.2.2025, 2:46:34 - ERROR - Cannot read properties of undefined (reading '_id')
+16.2.2025, 2:46:44 - INFO - app listening on port 3000
+16.2.2025, 2:46:45 - ERROR - Cannot read properties of undefined (reading '_id')
+16.2.2025, 2:46:50 - ERROR - Cannot read properties of undefined (reading '_id')
+16.2.2025, 2:46:56 - INFO - app listening on port 3000
+16.2.2025, 2:46:58 - ERROR - Cannot read properties of undefined (reading '_id')
+16.2.2025, 2:47:14 - INFO - app listening on port 3000
+16.2.2025, 2:47:31 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+16.2.2025, 2:47:43 - INFO - app listening on port 3000
+16.2.2025, 2:47:45 - INFO - app listening on port 3000
+16.2.2025, 2:50:39 - INFO - User login:  | {"_id":"fk88GX","fullname":"f2","score":0}
+16.2.2025, 2:54:36 - INFO - app listening on port 3000
+16.2.2025, 2:55:14 - INFO - app listening on port 3000
+16.2.2025, 2:55:42 - INFO - app listening on port 3000
+16.2.2025, 2:56:02 - INFO - app listening on port 3000
+16.2.2025, 2:56:15 - INFO - app listening on port 3000
+16.2.2025, 2:59:12 - INFO - app listening on port 3000
+16.2.2025, 2:59:28 - INFO - app listening on port 3000
+16.2.2025, 2:59:33 - INFO - app listening on port 3000
+16.2.2025, 2:59:43 - INFO - app listening on port 3000
+16.2.2025, 3:00:12 - INFO - app listening on port 3000
+16.2.2025, 3:00:34 - INFO - app listening on port 3000
+16.2.2025, 3:00:37 - ERROR - creatorId is not defined
+16.2.2025, 3:00:55 - INFO - app listening on port 3000
+16.2.2025, 3:00:57 - ERROR - creatorId is not defined
+16.2.2025, 3:01:33 - INFO - app listening on port 3000
+16.2.2025, 3:08:48 - INFO - User login:  | {"_id":"fk88GX","fullname":"f2","score":0}
+16.2.2025, 3:09:01 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+16.2.2025, 3:16:22 - INFO - User login:  | {"_id":"fk88GX","fullname":"f2","score":0}
+16.2.2025, 3:16:31 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+16.2.2025, 3:20:04 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+16.2.2025, 3:21:51 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+16.2.2025, 3:22:23 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+16.2.2025, 3:22:31 - INFO - User login:  | {"_id":"fk88GX","fullname":"f2","score":0}
+16.2.2025, 3:23:58 - INFO - User login:  | {"_id":"fk88GX","fullname":"f2","score":0}
+16.2.2025, 3:24:28 - INFO - User login:  | {"_id":"iH08FS","fullname":"f1","score":0}
+16.2.2025, 3:24:47 - INFO - User login:  | {"_id":"fk88GX","fullname":"f2","score":0}
+16.2.2025, 3:26:19 - INFO - app listening on port 3000
+16.2.2025, 3:27:48 - INFO - app listening on port 3000
+16.2.2025, 3:28:10 - INFO - app listening on port 3000
+16.2.2025, 3:35:10 - INFO - app listening on port 3000
+16.2.2025, 3:35:59 - INFO - app listening on port 3000
+16.2.2025, 3:37:03 - INFO - app listening on port 3000
+16.2.2025, 3:38:31 - INFO - app listening on port 3000
+16.2.2025, 3:39:09 - INFO - app listening on port 3000
+16.2.2025, 3:41:21 - DEBUG - auth.service - signup with username: u6, fullname: f6
+16.2.2025, 3:41:21 - DEBUG - auth.route - new account created: {"username":"u6","password":"$2b$10$FVHwOCmfYYD/2iEarYDcnOdfnQH2vSbtFNgPeUYi8Q07fl0XE3uJO","fullname":"f6","_id":"xLmX9b","score":0,"createdAt":1739670081522,"isAdmin":false}
+16.2.2025, 3:41:21 - INFO - User signup: | {"_id":"xLmX9b","fullname":"f6","score":0,"isAdmin":false}
+16.2.2025, 3:42:35 - DEBUG - auth.service - signup with username: admin, fullname: Admin User
+16.2.2025, 3:42:35 - DEBUG - auth.route - new account created: {"username":"admin","password":"$2b$10$.zjPL1WQrNhJ1XL8Tdoy/OdlK2dt14hD9MuipGq7P7hntsEiRw9EO","fullname":"Admin User","_id":"9WswY2","score":0,"createdAt":1739670155691,"isAdmin":false}
+16.2.2025, 3:42:35 - INFO - User signup: | {"_id":"9WswY2","fullname":"Admin User","score":0,"isAdmin":false}
+16.2.2025, 3:45:18 - INFO - User login:  | {"_id":"9WswY2","fullname":"Admin User","score":0,"isAdmin":false}
+16.2.2025, 3:46:00 - INFO - app listening on port 3000
+16.2.2025, 3:46:01 - INFO - app listening on port 3000
+16.2.2025, 3:46:11 - ERROR - Failed to Login Invalid username or password
+16.2.2025, 3:46:19 - INFO - User login:  | {"_id":"9WswY2","fullname":"Admin User","score":0,"isAdmin":true}
+16.2.2025, 3:47:28 - INFO - app listening on port 3000
+16.2.2025, 3:47:39 - INFO - User login:  | {"_id":"9WswY2","fullname":"Admin User","score":0,"isAdmin":true}
+16.2.2025, 3:48:03 - INFO - app listening on port 3000
+16.2.2025, 3:48:51 - INFO - app listening on port 3000
+16.2.2025, 3:49:42 - INFO - User login:  | {"_id":"9WswY2","fullname":"Admin User","score":0,"isAdmin":true}
+16.2.2025, 3:50:02 - DEBUG - auth.service - signup with username: u1, fullname: f1
+16.2.2025, 3:50:02 - DEBUG - auth.route - new account created: {"username":"u1","password":"$2b$10$XYAM.ajnU.7LcAvZ7Y0DK.wHz6ui/Av/6mvou.KXeC6TIdxWY9D3y","fullname":"f1","_id":"lJhRwX","score":0,"createdAt":1739670602512,"isAdmin":false}
+16.2.2025, 3:50:02 - INFO - User signup: | {"_id":"lJhRwX","fullname":"f1","score":0,"isAdmin":false}
+16.2.2025, 3:50:38 - DEBUG - auth.service - signup with username: u2, fullname: f2
+16.2.2025, 3:50:38 - DEBUG - auth.route - new account created: {"username":"u2","password":"$2b$10$RtSfR1MbKndOiDaxDF6xg.1d3I5KOdmCwAp2QSV92k2qHuJyaExRe","fullname":"f2","_id":"OPzHuk","score":0,"createdAt":1739670638844,"isAdmin":false}
+16.2.2025, 3:50:38 - INFO - User signup: | {"_id":"OPzHuk","fullname":"f2","score":0,"isAdmin":false}
+16.2.2025, 3:57:45 - INFO - User login:  | {"_id":"lJhRwX","fullname":"f1","score":0,"isAdmin":false}
+16.2.2025, 3:58:01 - INFO - User login:  | {"_id":"9WswY2","fullname":"Admin User","score":0,"isAdmin":true}
+16.2.2025, 4:02:32 - INFO - User login:  | {"_id":"9WswY2","fullname":"Admin User","score":0,"isAdmin":true}
+16.2.2025, 4:10:15 - INFO - app listening on port 3000
+16.2.2025, 4:10:45 - ERROR - Failed to Login Unknown username
+16.2.2025, 4:10:54 - INFO - User login:  | {"_id":"9WswY2","fullname":"Admin User","score":0,"isAdmin":true}
+16.2.2025, 4:11:05 - INFO - User login:  | {"_id":"lJhRwX","fullname":"f1","score":"2","isAdmin":false}
+16.2.2025, 4:14:39 - INFO - User login:  | {"_id":"lJhRwX","fullname":"f1","score":"2","isAdmin":false}
+16.2.2025, 4:14:47 - INFO - User login:  | {"_id":"9WswY2","fullname":"Admin User","score":0,"isAdmin":true}
+16.2.2025, 4:19:53 - INFO - app listening on port 3000
+16.2.2025, 4:20:27 - INFO - app listening on port 3000
+16.2.2025, 4:21:44 - DEBUG - auth.service - signup with username: u1, fullname: f1
+16.2.2025, 4:21:44 - ERROR - Failed to signup Username already taken
+16.2.2025, 4:22:18 - ERROR - Failed to Login Invalid username or password
+16.2.2025, 4:22:25 - DEBUG - auth.service - signup with username: u1, fullname: f1
+16.2.2025, 4:22:25 - ERROR - Failed to signup Username already taken
+16.2.2025, 4:22:49 - INFO - User login:  | {"_id":"9WswY2","fullname":"Admin User","score":0,"isAdmin":true}
+16.2.2025, 4:23:04 - DEBUG - auth.service - signup with username: u1, fullname: f1
+16.2.2025, 4:23:04 - DEBUG - auth.route - new account created: {"username":"u1","password":"$2b$10$3KyE9LzxqAEMR2fIndECu.N1ANyKEPM2q.uYeggMAdEhQepIMZOWO","fullname":"f1","_id":"9Cmf8Y","score":0,"createdAt":1739672584909,"isAdmin":false}
+16.2.2025, 4:23:05 - INFO - User signup: | {"_id":"9Cmf8Y","fullname":"f1","score":0,"isAdmin":false}
+16.2.2025, 4:23:21 - DEBUG - auth.service - signup with username: u2, fullname: f2
+16.2.2025, 4:23:21 - DEBUG - auth.route - new account created: {"username":"u2","password":"$2b$10$YVu6UU4brZS1E.hhVXaIxuULqgw5kh.Qzm0isBRjzRSXmySyNHbPq","fullname":"f2","_id":"QFzZ4B","score":0,"createdAt":1739672601415,"isAdmin":false}
+16.2.2025, 4:23:21 - INFO - User signup: | {"_id":"QFzZ4B","fullname":"f2","score":0,"isAdmin":false}
+16.2.2025, 4:24:15 - INFO - app listening on port 3000
+16.2.2025, 4:24:32 - INFO - User login:  | {"_id":"9WswY2","fullname":"Admin User","score":0,"isAdmin":true}
+16.2.2025, 4:24:42 - INFO - User login:  | {"_id":"9WswY2","fullname":"Admin User","score":0,"isAdmin":true}
+16.2.2025, 4:25:42 - ERROR - Failed to Login Invalid username or password
+16.2.2025, 4:31:00 - INFO - app listening on port 3000
+16.2.2025, 4:31:40 - INFO - User login:  | {"_id":"9WswY2","fullname":"Admin User","score":"999","isAdmin":true}
+16.2.2025, 4:31:56 - DEBUG - auth.service - signup with username: u3, fullname: f3
+16.2.2025, 4:32:22 - INFO - User login:  | {"_id":"uEUaal","fullname":"f3","score":0,"isAdmin":false}
+16.2.2025, 4:32:46 - INFO - User login:  | {"_id":"9WswY2","fullname":"Admin User","score":"999","isAdmin":true}
+16.2.2025, 4:34:27 - INFO - User login:  | {"_id":"9Cmf8Y","fullname":"f1","score":0,"isAdmin":false}
+16.2.2025, 4:34:38 - INFO - User login:  | {"_id":"9WswY2","fullname":"Admin User","score":"999","isAdmin":true}
+16.2.2025, 4:35:43 - INFO - User login:  | {"_id":"9Cmf8Y","fullname":"f1","score":0,"isAdmin":false}
+16.2.2025, 4:36:12 - INFO - User login:  | {"_id":"QFzZ4B","fullname":"f2","score":0,"isAdmin":false}
+16.2.2025, 4:36:41 - INFO - User login:  | {"_id":"uEUaal","fullname":"f3","score":0,"isAdmin":false}
+16.2.2025, 4:37:32 - INFO - User login:  | {"_id":"9Cmf8Y","fullname":"f1","score":0,"isAdmin":false}
+16.2.2025, 4:37:46 - INFO - User login:  | {"_id":"9WswY2","fullname":"Admin User","score":"999","isAdmin":true}
+16.2.2025, 4:39:15 - DEBUG - auth.service - signup with username: admin, fullname: Admin User
+16.2.2025, 4:39:15 - ERROR - Failed to signup Username already taken
+16.2.2025, 4:39:46 - INFO - app listening on port 3000
+16.2.2025, 4:39:55 - DEBUG - auth.service - signup with username: admin, fullname: Admin User
+16.2.2025, 4:39:56 - DEBUG - auth.route - new account created: {"username":"admin","password":"$2b$10$485xGHiB00glEJsK3nDobOKci5N5gQywUhytnn7lEBT3ntktgImy6","fullname":"Admin User","_id":"Zak4Sj","score":0,"createdAt":1739673596155,"isAdmin":false}
+16.2.2025, 4:39:56 - INFO - User signup: | {"_id":"Zak4Sj","fullname":"Admin User","score":0,"isAdmin":false}
+16.2.2025, 4:40:26 - INFO - app listening on port 3000
+16.2.2025, 4:41:08 - INFO - User login:  | {"_id":"Zak4Sj","fullname":"Admin User","score":0,"isAdmin":true}
+16.2.2025, 4:43:02 - INFO - app listening on port 3000
+16.2.2025, 4:43:13 - INFO - app listening on port 3000
+16.2.2025, 4:44:06 - INFO - app listening on port 3000
+16.2.2025, 4:45:10 - INFO - app listening on port 3000
+16.2.2025, 4:45:23 - INFO - User login:  | {"_id":"9Cmf8Y","fullname":"f1","score":0,"isAdmin":false}
+16.2.2025, 4:45:30 - INFO - User login:  | {"_id":"Zak4Sj","fullname":"Admin User","score":"999","isAdmin":true}
+16.2.2025, 5:53:15 - INFO - app listening on port 3000
+16.2.2025, 5:53:42 - ERROR - Couldn't save bug tS6C9w Because: TypeError: Cannot read properties of null (reading '_id')
+16.2.2025, 5:53:42 - ERROR - Cannot read properties of null (reading '_id')
+16.2.2025, 5:55:43 - INFO - User login:  | {"_id":"9Cmf8Y","fullname":"f1","score":0,"isAdmin":false}
+16.2.2025, 6:01:48 - INFO - app listening on port 3000
+16.2.2025, 6:02:11 - INFO - app listening on port 3000
+16.2.2025, 6:02:27 - INFO - app listening on port 3000
+16.2.2025, 6:02:35 - INFO - app listening on port 3000
+16.2.2025, 6:02:46 - INFO - app listening on port 3000
+16.2.2025, 6:02:50 - INFO - app listening on port 3000
+16.2.2025, 6:04:10 - INFO - app listening on port 3000
+16.2.2025, 6:04:14 - INFO - app listening on port 3000
+16.2.2025, 6:04:18 - INFO - app listening on port 3000
+16.2.2025, 6:04:24 - INFO - app listening on port 3000
+16.2.2025, 6:04:55 - INFO - app listening on port 3000
+16.2.2025, 6:05:01 - INFO - app listening on port 3000
+16.2.2025, 6:05:12 - INFO - app listening on port 3000
+16.2.2025, 6:05:17 - INFO - app listening on port 3000
+16.2.2025, 6:05:32 - INFO - app listening on port 3000
+16.2.2025, 6:17:34 - INFO - app listening on port 3000
+16.2.2025, 6:17:41 - INFO - app listening on port 3000
+16.2.2025, 6:21:20 - INFO - app listening on port 3000
+16.2.2025, 6:21:56 - INFO - app listening on port 3000
+16.2.2025, 6:22:09 - INFO - app listening on port 3000
+16.2.2025, 6:22:25 - INFO - app listening on port 3000
+16.2.2025, 6:22:51 - INFO - Visited route | /
+16.2.2025, 6:22:52 - INFO - Visited route | /
+16.2.2025, 6:23:50 - INFO - Visited route | /signup
+16.2.2025, 6:23:50 - DEBUG - auth.service - signup with username: u4, fullname: f4
+16.2.2025, 6:23:50 - DEBUG - auth.route - new account created: {"username":"u4","password":"$2b$10$xAO90S88l51QKvhlZkxwPu.M9AM1WcfFWjz0HUEGYGS2HQUUbpyvm","fullname":"f4","_id":"dgnqma","score":0,"createdAt":1739679830973,"isAdmin":false}
+16.2.2025, 6:23:51 - INFO - User signup: | {"_id":"dgnqma","fullname":"f4","score":0,"isAdmin":false}
+16.2.2025, 6:24:01 - INFO - Visited route | /
+16.2.2025, 6:25:17 - INFO - Visited route | /
+16.2.2025, 6:25:17 - INFO - Visited route | /
+16.2.2025, 6:25:19 - INFO - Visited route | /
+16.2.2025, 6:25:20 - INFO - Visited route | /:bugId
+16.2.2025, 6:25:40 - INFO - Visited route | /
+16.2.2025, 6:25:40 - INFO - Visited route | /
+16.2.2025, 6:25:43 - INFO - Visited route | /
+16.2.2025, 6:25:43 - INFO - Visited route | /
+16.2.2025, 6:25:50 - INFO - Visited route | /:bugId
+16.2.2025, 6:27:56 - INFO - Visited route | /
+16.2.2025, 6:27:58 - INFO - Visited route | /
+16.2.2025, 6:28:03 - INFO - Visited route | /:bugId
+16.2.2025, 6:28:22 - INFO - Visited route | /
+16.2.2025, 6:28:24 - INFO - Visited route | /
+16.2.2025, 6:28:25 - INFO - Visited route | /
+16.2.2025, 6:28:28 - INFO - Visited route | /:bugId
+16.2.2025, 6:28:56 - INFO - Visited route | /
+16.2.2025, 6:28:58 - INFO - Visited route | /
+16.2.2025, 6:29:01 - INFO - Visited route | /
+16.2.2025, 6:29:28 - INFO - Visited route | /
+16.2.2025, 6:29:32 - INFO - Visited route | /
+16.2.2025, 6:30:20 - INFO - Visited route | /
+16.2.2025, 6:30:23 - INFO - Visited route | /:bugId
+16.2.2025, 6:30:24 - INFO - Visited route | /
+16.2.2025, 6:30:26 - INFO - Visited route | /
+16.2.2025, 6:30:27 - INFO - Visited route | /
+16.2.2025, 6:30:28 - INFO - Visited route | /
+16.2.2025, 6:30:32 - INFO - Visited route | /:bugId
+16.2.2025, 6:30:35 - INFO - Visited route | /
+16.2.2025, 6:30:36 - INFO - Visited route | /
+16.2.2025, 6:30:51 - INFO - Visited route | /:bugId
+16.2.2025, 6:30:56 - INFO - Visited route | /:bugId
+16.2.2025, 6:30:57 - INFO - Visited route | /
+16.2.2025, 6:30:58 - INFO - Visited route | /
+16.2.2025, 6:31:06 - INFO - Visited route | /:bugId
+16.2.2025, 6:31:07 - INFO - Visited route | /
+16.2.2025, 6:31:07 - INFO - Visited route | /
+16.2.2025, 6:32:08 - INFO - Visited route | /:bugId
+16.2.2025, 6:32:42 - INFO - Visited route | /
+16.2.2025, 6:32:45 - INFO - Visited route | /
+16.2.2025, 6:32:46 - INFO - Visited route | /
+16.2.2025, 6:32:51 - INFO - Visited route | /:bugId
+16.2.2025, 6:41:30 - INFO - Visited route | /
+16.2.2025, 6:41:36 - INFO - Visited route | /:bugId
+16.2.2025, 6:41:36 - INFO - Visited route | /
+16.2.2025, 6:42:14 - INFO - Visited route | /:bugId
+16.2.2025, 6:42:16 - INFO - Visited route | /
+16.2.2025, 6:42:17 - INFO - Visited route | /
+16.2.2025, 6:43:18 - INFO - Visited route | /
+16.2.2025, 6:43:18 - INFO - Visited route | /
+16.2.2025, 6:43:19 - INFO - Visited route | /
+16.2.2025, 6:44:11 - INFO - app listening on port 3000
+16.2.2025, 6:44:13 - INFO - app listening on port 3000

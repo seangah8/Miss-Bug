@@ -1,25 +1,47 @@
 [
     {
-        "_id": "B4P2U8",
-        "fullname": "Sean",
-        "username": "dsfsf",
-        "password": "sdf",
-        "score": "555"
+        "username": "admin",
+        "password": "$2b$10$485xGHiB00glEJsK3nDobOKci5N5gQywUhytnn7lEBT3ntktgImy6",
+        "fullname": "Admin User",
+        "_id": "Zak4Sj",
+        "score": "999",
+        "createdAt": 1739673596155,
+        "isAdmin": true
     },
     {
-        "fullname": "New User",
-        "username": "UserName",
-        "password": "1234",
-        "_id": "HTJy6R",
+        "username": "u1",
+        "password": "$2b$10$3KyE9LzxqAEMR2fIndECu.N1ANyKEPM2q.uYeggMAdEhQepIMZOWO",
+        "fullname": "f1",
+        "_id": "9Cmf8Y",
         "score": 0,
-        "createdAt": 1739227572403
+        "createdAt": 1739672584909,
+        "isAdmin": false
     },
     {
-        "fullname": "fff",
-        "username": "uuu",
-        "password": "111",
-        "_id": "3WzkbZ",
+        "username": "u2",
+        "password": "$2b$10$YVu6UU4brZS1E.hhVXaIxuULqgw5kh.Qzm0isBRjzRSXmySyNHbPq",
+        "fullname": "f2",
+        "_id": "QFzZ4B",
         "score": 0,
-        "createdAt": 1739285101715
+        "createdAt": 1739672601415,
+        "isAdmin": false
+    },
+    {
+        "username": "u3",
+        "password": "$2b$10$tEyHDUF6OaN/s1zFZ27Kku0cVU69nTrYBTvIJXEtToUvFfWRA/cMC",
+        "fullname": "f3",
+        "_id": "uEUaal",
+        "score": 0,
+        "createdAt": 1739673117092,
+        "isAdmin": false
+    },
+    {
+        "username": "u4",
+        "password": "$2b$10$xAO90S88l51QKvhlZkxwPu.M9AM1WcfFWjz0HUEGYGS2HQUUbpyvm",
+        "fullname": "f4",
+        "_id": "dgnqma",
+        "score": 0,
+        "createdAt": 1739679830973,
+        "isAdmin": false
     }
 ]

@@ -35,7 +35,6 @@ export function UserIndex(){
             _id: user._id,
             fullname: prompt('New Full Name?', user.fullname) || user.fullname,
             username: prompt('New User Name?', user.username) || user.username,
-            password: prompt('New Password?', user.password) || user.password,
             score: prompt('New Score?', user.score) || user.score
         }
         await userService.save(updatedUser)
