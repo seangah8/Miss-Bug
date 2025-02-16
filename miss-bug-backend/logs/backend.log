@@ -708,3 +708,23 @@
 16.2.2025, 6:43:19 - INFO - Visited route | /
 16.2.2025, 6:44:11 - INFO - app listening on port 3000
 16.2.2025, 6:44:13 - INFO - app listening on port 3000
+16.2.2025, 18:36:28 - INFO - Up and running on http://localhost:3000
+16.2.2025, 18:38:22 - INFO - Visited route | /login
+16.2.2025, 18:38:22 - INFO - User login:  | {"_id":"Zak4Sj","fullname":"Admin User","score":"999","isAdmin":true}
+16.2.2025, 18:38:26 - INFO - Visited route | /:userId
+16.2.2025, 18:40:50 - INFO - Up and running on http://localhost:3000
+16.2.2025, 18:40:54 - INFO - Up and running on http://localhost:3000
+16.2.2025, 18:49:10 - INFO - Up and running on http://localhost:3000
+16.2.2025, 18:51:31 - INFO - Up and running on http://localhost:3000
+16.2.2025, 18:51:41 - INFO - Up and running on http://localhost:3000
+16.2.2025, 18:51:58 - INFO - Up and running on http://localhost:3000
+16.2.2025, 18:54:37 - INFO - Visited route | /login
+16.2.2025, 18:54:37 - INFO - User login:  | {"_id":"9Cmf8Y","fullname":"f1","score":0,"isAdmin":false}
+16.2.2025, 18:54:40 - INFO - Visited route | /:userId
+16.2.2025, 18:54:43 - INFO - Visited route | /:userId
+16.2.2025, 18:54:59 - INFO - Visited route | /logout
+16.2.2025, 18:55:18 - INFO - Visited route | /login
+16.2.2025, 18:55:18 - INFO - User login:  | {"_id":"Zak4Sj","fullname":"Admin User","score":"999","isAdmin":true}
+16.2.2025, 18:55:26 - INFO - Visited route | /:userId
+16.2.2025, 18:55:46 - INFO - Visited route | /logout
+16.2.2025, 18:58:09 - INFO - Up and running on http://localhost:3000

@@ -16,8 +16,13 @@ export const userService = {
 const STORAGE_KEY_LOGGEDIN_USER = 'loggedinUser'
 
 var axios = Axios.create({withCredentials: true, })
-const BASE_USER_URL = '//localhost:3000/api/user/'
-const BASE_AUTH_URL = '//localhost:3000/api/auth/'
+
+const BASE_URL = (process.env.NODE_ENV !== 'development') ?
+    '/api/' :
+    '//localhost:3000/api/'
+
+const BASE_USER_URL = BASE_URL + 'user/'
+const BASE_AUTH_URL = BASE_URL + 'auth/'
 
 async function query() {
     try {

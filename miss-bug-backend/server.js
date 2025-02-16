@@ -20,7 +20,7 @@ const corsOptions = {
 
 //* App Configuration
 app.use(cors(corsOptions))
-// app.use(express.static('public'))
+app.use(express.static('public'))
 app.use(express.json())
 app.use(cookieParser())
 
@@ -34,8 +34,8 @@ app.use('/api/auth', authRoutes)
 
 
 // Open Server
-const port = 3000
-app.listen(port, () => {
-	loggerService.info(`app listening on port ${port}`)
+const PORT = process.env.PORT || 3000
+app.listen(PORT, () => {
+	loggerService.info('Up and running on ' + `http://localhost:${PORT}`)
 })
 
